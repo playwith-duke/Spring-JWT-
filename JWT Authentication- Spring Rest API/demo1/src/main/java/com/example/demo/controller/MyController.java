@@ -99,8 +99,8 @@ public class MyController {
     public void init(){
         RegisterUser registerUser=new RegisterUser();
         registerUser.setId(1);
-        registerUser.setFirstname("Siva");
-        registerUser.setLastname("Sanker");
+        registerUser.setFirstname("Duke");
+        registerUser.setLastname("Nukem");
         registerUser.setUsername("siva");
         registerUser.setPassword(bCryptPasswordEncoder.encode("123456"));
         registerRepository.save(registerUser);
